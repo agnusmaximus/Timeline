@@ -24,7 +24,7 @@ def get_sentence_dates(url):
 
     # Strip raw
     raw = re.sub(r'(\n)|\[.*?\] ?', "", raw)
-    #raw = re.sub(r'(\n)|\(.*?\) ?', "", raw)
+    raw = re.sub(r'(\n)|\(.*?\) ?', "", raw)
     raw = re.sub(r"\r\n", ".", raw)
     #raw = re.sub(r";", ".", raw)
     #raw = re.sub(r"\"", ".", raw)    
