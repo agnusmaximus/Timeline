@@ -4,3 +4,6 @@ Creates a timeline out of a wikipedia source
 <br/>
 
 ![alt tag](https://raw.github.com/agnusmaximus/Timeline/master/picture.png)
+
+
+demo: http://timeline-chrono.rhcloud.com/
